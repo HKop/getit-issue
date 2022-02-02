@@ -27,10 +27,9 @@ class MyApp extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               ElevatedButton(
-                child: Text('Get something from GetIt'),
+                child: Text('Call a method on injected service'),
                 onPressed: () => getIt<ObjectManager>().saveData(),
               ),
-              // Text(getIt<ObjectManager>().hello()),
             ],
           ),
         ),

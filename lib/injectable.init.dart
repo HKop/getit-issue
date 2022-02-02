@@ -14,9 +14,6 @@ import 'injectable.init.config.dart';
 //Registering classes from lib_common
 @module
 abstract class LibCommonModule {
-  // @injectable
-  // ObjectParser get objectParser;
-
   @webEnv
   @Injectable(as: ISecureStorage)
   WebSecureStorage get webSecureStorage;

@@ -1,7 +1,5 @@
-import 'package:injectable/injectable.dart';
 import 'package:lib_common/secure_storage.service.dart';
 
-@singleton
 class ObjectManager {
   ObjectManager(
     this._secureStorage,
@@ -11,5 +9,9 @@ class ObjectManager {
 
   Future<void> saveData() async {
     await _secureStorage.saveString('key', 'data');
+  }
+
+  String hello() {
+    return _secureStorage.hello();
   }
 }

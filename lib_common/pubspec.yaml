@@ -13,7 +13,6 @@ dependencies:
   flutter:
     sdk: flutter
   get_it: 7.2.0
-  injectable: 1.5.0
   flutter_secure_storage: 5.0.2
   shared_preferences: 2.0.11
 

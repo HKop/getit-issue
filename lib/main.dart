@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:getit_issue/injectable.init.dart';
 import 'package:lib_common/environments.di.dart';
-import 'package:lib_common/secure_storage.service.dart';
 import 'package:lib_common/object_manager.service.dart';
 
 void main() async {

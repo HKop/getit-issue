@@ -10,7 +10,6 @@ import 'injectable.init.config.dart';
   preferRelativeImports: true,
   asExtension: false,
 )
-
 //Registering classes from lib_common
 @module
 abstract class LibCommonModule {
